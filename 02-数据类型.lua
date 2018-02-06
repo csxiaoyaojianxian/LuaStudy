@@ -1,7 +1,18 @@
 -- @Author: csxiaoyaojianxian
 -- @Date:   2018-01-29 17:28:24
 -- @Last Modified by:   csxiaoyaojianxian
--- @Last Modified time: 2018-01-29 18:07:09
+-- @Last Modified time: 2018-02-01 09:51:45
+
+--[[ 类型
+nil
+boolean
+number
+string
+function
+userData
+thread
+table
+]]
 
 print(type("Hello world"))      --> string
 print(type(10.4*3))             --> number
@@ -61,3 +72,10 @@ function funcTest(n)
     end
 end
 print(funcTest(5))  -->120
+
+-- 【 number 】
+--[[
+转换为字符串：tostring
+数学库math：math.floor,math.ceil,math.max,math.min等
+数字最大值:math.huge
+]]
